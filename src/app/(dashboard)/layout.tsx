@@ -12,7 +12,7 @@ const Layout = ({children}: Props) => {
             <DashboardSiderbar />
             <main className="flex flex-col h-screen w-screen bg-muted">
                 <DashboardNavbar />
-                {children}
+                {children} 
             </main>
         </SidebarProvider>
     )
